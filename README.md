@@ -1,9 +1,5 @@
 # ColorHelpers
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/color_helpers`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -21,8 +17,12 @@ Or install it yourself as:
     $ gem install color_helpers
 
 ## Usage
+_hex_color argument accepts an input string e.g. "#ff0000"
 
-TODO: Write usage instructions here
+* darken_color(hex_color, amount) _amount 0-1, default: 0.4
+* lighten_color(hex_color, amount) _amount 0-1, default: 0.6
+* contrasting_text_color(hex_color)
+
 
 ## Development
 
@@ -32,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/color_helpers/fork )
+1. Fork it ( https://github.com/mschneider85/color_helpers/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
