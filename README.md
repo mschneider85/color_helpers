@@ -17,10 +17,10 @@ Or install it yourself as:
     $ gem install color_helpers
 
 ## Usage
-_hex_color argument accepts an input string e.g. "#ff0000"
+_hex_color argument accepts an input string e.g. "#ff0000"_
 
-* darken_color(hex_color, amount) _amount 0-1, default: 0.4
-* lighten_color(hex_color, amount) _amount 0-1, default: 0.6
+* darken_color(hex_color, amount) _amount 0-1, default: 0.4_
+* lighten_color(hex_color, amount) _amount 0-1, default: 0.6_
 * contrasting_text_color(hex_color)
 
 
