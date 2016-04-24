@@ -1,4 +1,5 @@
 # ColorHelpers
+<img src="https://badge.fury.io/rb/color_helpers.svg" alt="Gem Version" />
 
 ## Installation
 
