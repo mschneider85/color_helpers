@@ -1,5 +1,5 @@
 # ColorHelpers
-[<img src="https://badge.fury.io/rb/color_helpers.svg" alt="Gem Version" />](https://rubygems.org/gems/color_helpers)
+[![Gem Version](https://badge.fury.io/rb/color_helpers.svg)](https://badge.fury.io/rb/color_helpers)
 
 ## Installation
 
