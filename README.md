@@ -1,5 +1,5 @@
 # ColorHelpers
-[![Gem Version](https://badge.fury.io/rb/color_helpers.svg)](https://badge.fury.io/rb/color_helpers)
+[![Gem Version](https://badge.fury.io/rb/color_helpers.svg)](https://badge.fury.io/rb/color_helpers) [![Code Climate](https://codeclimate.com/github/mschneider85/color_helpers/badges/gpa.svg)](https://codeclimate.com/github/mschneider85/color_helpers)
 
 ## Installation
 
