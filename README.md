@@ -1,5 +1,5 @@
 # ColorHelpers
-<img src="https://badge.fury.io/rb/color_helpers.svg" alt="Gem Version" />
+[<img src="https://badge.fury.io/rb/color_helpers.svg" alt="Gem Version" />](https://rubygems.org/gems/color_helpers)
 
 ## Installation
 
@@ -18,12 +18,29 @@ Or install it yourself as:
     $ gem install color_helpers
 
 ## Usage
+
+```ruby
+<%= random_hex_color %> // prints a random hex color e.g. "#ff0000"
+```
+```ruby
+<%= hex_to_rgb(hex_color) %> // converts hex color string to rgb color string
+```
+```ruby
+<%= rgb_to_hex(rgb_color) %> // converts rgb color string to hex color string
+```
 _hex_color argument accepts an input string e.g. "#ff0000"_
-
-* **darken_color(hex_color, amount)** _amount 0-1, default: 0.4_
-* **lighten_color(hex_color, amount)** _amount 0-1, default: 0.6_
-* **contrasting_text_color(hex_color)**
-
+```ruby
+<%= darken_color(hex_color, amount)  %> // amount: 0 to 1, default: 0.4
+```
+```ruby
+<%= lighten_color(hex_color, amount)  %> // amount: 0 to 1, default: 0.6
+```
+```ruby
+<%= contrasting_text_color(hex_color)  %> // Options: :monochrome, default: false
+```
+```ruby
+<%= color_to_grayscale(hex_color)  %> // converts color to greyscale
+```
 
 ## Development
 
